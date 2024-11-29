@@ -1,0 +1,18 @@
+name: ET CI Checks
+
+on: [push, pull_request, workflow_dispatch]
+
+jobs:
+  ls_linting:
+      runs-on: ubuntu-latest
+      steps:  
+        - uses: actions/checkout@v4
+        - uses: ls-lint/action@v2.2.3
+
+  md_linting:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: DavidAnson/markdownlint-cli2-action@v18
+        with:
+          globs: '**/*.md'

@@ -1,0 +1,39 @@
+# Focuses on core readability and consistency practices
+
+# Headings
+MD003: # Heading style
+  style: consistent
+MD004: # Unordered list style
+  style: consistent
+MD007: # Unordered list indentation
+  indent: 2
+
+# Line length and whitespace
+MD013: # Line length
+  line_length: 80
+  strict: false
+  stern: false
+
+# Spacing and formatting
+MD022: # Headings should be surrounded by blank lines
+  lines_above: 1
+  lines_below: 1
+MD023: # Headings must start at the beginning of the line
+MD030: # Spaces after list markers
+  ul_single: 1
+  ol_single: 1
+  ul_multi: 1
+  ol_multi: 1
+
+# Emphasis and strong
+MD036: # Emphasis used instead of a heading
+  punctuation: ".,;:!?"
+
+# General best practices
+MD047: true # Files should end with a single newline character
+MD048: # Code block style (consistent backticks)
+  style: consistent
+
+# Disable some strict rules for beginners
+MD024: false # Allow multiple headings with the same content
+MD041: false # First line in a file being a top-level heading

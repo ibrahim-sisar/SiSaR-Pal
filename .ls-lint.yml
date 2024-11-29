@@ -1,0 +1,17 @@
+ls:
+  .dir: snake_case
+  .*: snake_case
+  .md: snake_case | regex:[0-9A-Z\-]+
+  .txt: snake_case
+  .yml: snake_case
+
+ignore:
+  - .ls-lint.yml
+  - .markdownlint.yml
+  - .git
+  - .github
+  - .vscode
+  - venv
+  - .ruff_cache
+  - .pytest_cache
+  - __pycache__
