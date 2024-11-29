@@ -7,13 +7,13 @@
 - ![Matlab](https://img.shields.io/badge/-Matlab-orange)
 - ![Python](https://img.shields.io/badge/-Python-green)
 
-# Embedded Systems
+## Embedded Systems
 
 - ![Microchip PIC](https://img.shields.io/badge/-Microchip%20PIC-red)
 - ![Arduino](https://img.shields.io/badge/-Arduino-blue)
 - ![ESP32](https://img.shields.io/badge/-ESP32-darkblue)
 
-# Programmable Logic Controllers & HMI Families
+## Programmable Logic Controllers & HMI Families
 
 - ![Siemens](https://img.shields.io/badge/-Siemens-blue)
 - ![Mitsubishi](https://img.shields.io/badge/-Mitsubishi-red)
